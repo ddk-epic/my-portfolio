@@ -1,4 +1,3 @@
-import path from "path";
 import React from "react";
 
 interface classNameProps {
@@ -135,8 +134,8 @@ export const D3Icon = ({ className }: classNameProps) => {
         x2="91.053"
         y2="-49.515"
       >
-        <stop offset="0" stop-color="#f9a03c"></stop>
-        <stop offset="1" stop-color="#f7974e"></stop>
+        <stop offset="0" stopColor="#f9a03c"></stop>
+        <stop offset="1" stopColor="#f7974e"></stop>
       </linearGradient>
       <path
         fill={color}
@@ -150,8 +149,8 @@ export const D3Icon = ({ className }: classNameProps) => {
         x2="39.382"
         y2="-47.925"
       >
-        <stop offset="0" stop-color="#f9a03c"></stop>
-        <stop offset="1" stop-color="#f7974e"></stop>
+        <stop offset="0" stopColor="#f9a03c"></stop>
+        <stop offset="1" stopColor="#f7974e"></stop>
       </linearGradient>
       <path
         fill={color}

@@ -3,7 +3,7 @@ import { icons } from "@/constants/collections";
 
 const Toolbox = () => {
   return (
-    <section className="wrapper bg-primary">
+    <section id="toolbox" className="wrapper bg-primary">
       <div className="py-20">
         <h2 className="h2">Toolbox</h2>
         <div className="flex justify-center items-center gap-2">

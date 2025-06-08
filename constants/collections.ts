@@ -16,9 +16,9 @@ import {
 } from "@/components/DevIcons";
 
 export const navLinks: { name: string; link: string }[] = [
-  { name: "Tech Stack", link: "#techstack" },
+  { name: "Toolbox", link: "#toolbox" },
   //{ name: "Experience", link: "#experience" },
-  { name: "Projects", link: "#work" },
+  { name: "Projects", link: "#projects" },
   { name: "About", link: "#about" },
 ];
 
