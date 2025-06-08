@@ -1,4 +1,4 @@
-import { navLinks } from "@/constants/navLinks";
+import { navLinks } from "@/constants/collections";
 import React from "react";
 
 const NavBar = () => {
