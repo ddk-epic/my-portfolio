@@ -13,6 +13,7 @@ import {
   ExpressIcon,
   TailwindIcon,
   D3Icon,
+  NextIcon,
 } from "@/components/DevIcons";
 
 export const navLinks: { name: string; link: string }[] = [
@@ -34,6 +35,7 @@ export const icons: { name: string; Icon: React.ElementType }[] = [
   { name: "Bash", Icon: BashIcon },
   { name: "Git", Icon: GitIcon },
   { name: "GitHub", Icon: GithubIcon },
+  { name: "Nextjs", Icon: NextIcon },
   { name: "Express", Icon: ExpressIcon },
   { name: "Postgres", Icon: PostgresIcon },
   { name: "Mongodb", Icon: MongodbIcon },

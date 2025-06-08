@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
 import Toolbox from "@/components/Toolbox";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Hero />
       <Toolbox />
+      <Projects />
     </>
   );
 }

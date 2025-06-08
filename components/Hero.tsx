@@ -7,10 +7,10 @@ const Hero = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
         <aside className="h-[750px] bg-secondary">
           <div className="h-full flex flex-col justify-center items-center mx-2 lg:mx-4">
-            <h1 className="w-full my-8 text-4xl md:text-5xl lg:text-6xl text-center lg:text-left font-bold">
+            <h1 className="my-8 text-4xl md:text-5xl lg:text-6xl text-center lg:text-left font-bold">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr
             </h1>
-            <p className="w-full text:md md:text-lg lg:text-xl">
+            <p className="text:md md:text-lg lg:text-xl">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
               erat, sed diam voluptua. At vero eos et accusam et justo duo
