@@ -23,8 +23,6 @@
 }*/
 
 body {
-  background: var(--background);
-  color: var(--foreground);
   font-family: var(--font-geist-sans), ui-sans-serif, system-ui, Arial,
     Helvetica, sans-serif;
 }
@@ -34,7 +32,24 @@ h2 {
 }
 
 .wrapper {
-  max-width: 1280px;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.tempborder {
+  outline: 2px solid var(--color-secondary);
+  outline-offset: -2px;
+}
+
+.indent {
+  @apply mx-2;
+}
+
+.hover-icon {
+  @apply fill-current transition-colors duration-150 ease-in-out;
+}
+
+.scale-icon {
+  @apply transform transition-all hover:scale-105 duration-150 ease-in-out;
 }

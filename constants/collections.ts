@@ -19,7 +19,7 @@ import {
 export const navLinks: { name: string; link: string }[] = [
   { name: "Toolbox", link: "#toolbox" },
   { name: "Projects", link: "#projects" },
-  { name: "About", link: "#about" },
+  //{ name: "About", link: "#about" },
 ];
 
 export const icons: { name: string; Icon: React.ElementType }[] = [

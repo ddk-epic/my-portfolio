@@ -3,28 +3,33 @@ import { icons } from "@/constants/collections";
 
 const Toolbox = () => {
   return (
-    <section id="toolbox" className="wrapper bg-primary">
-      <div className="px-4 py-20">
-        <h2 className="h2 mx-8">Toolbox</h2>
-        <div className="flex flex-col justify-center items-center gap-2 mx-8">
+    <section id="toolbox" className="tempborder wrapper">
+      <div className="py-20 mx-4">
+        <h2 className="h2">Toolbox</h2>
+        <div className="flex flex-col justify-center gap-2">
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
             et ea rebum.
           </p>
-          <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-7 lg:grid-cols-8 gap-8 m-8 justify-center">
+          <div className="flex flex-wrap justify-center gap-8 pr-4 my-8">
             {icons.map(({ name, Icon }) => (
-              <div key={name}>
+              <div key={name} className="group scale-icon">
                 <Icon
                   key={name}
-                  className="w-18 md:h-18 m-auto"
-                  color="#ffffff"
+                  className="w-18 md:h-18 m-auto group-hover:text-primary hover-icon"
                 />
-                <p className="flex justify-center py-2 text-light">{name}</p>
+                <p className="flex justify-center py-2 group-hover:text-primary hover-icon">
+                  {name}
+                </p>
               </div>
             ))}
           </div>
+          <p>
+            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+            aliquyam erat, sed diam voluptua.
+          </p>
         </div>
       </div>
     </section>
