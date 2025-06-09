@@ -18,7 +18,6 @@ import {
 
 export const navLinks: { name: string; link: string }[] = [
   { name: "Toolbox", link: "#toolbox" },
-  //{ name: "Experience", link: "#experience" },
   { name: "Projects", link: "#projects" },
   { name: "About", link: "#about" },
 ];
