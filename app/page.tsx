@@ -1,6 +1,7 @@
-import Hero from "@/components/Hero";
-import Projects from "@/components/Projects";
-import Toolbox from "@/components/Toolbox";
+import Footer from "@/components/UI/Footer";
+import Hero from "@/components/UI/Hero";
+import Projects from "@/components/UI/Projects";
+import Toolbox from "@/components/UI/Toolbox";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Toolbox />
       <Projects />
+      <Footer />
     </>
   );
 }

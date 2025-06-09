@@ -4,7 +4,7 @@ import { icons } from "@/constants/collections";
 const Toolbox = () => {
   return (
     <section id="toolbox" className="tempborder wrapper">
-      <div className="py-20 mx-4">
+      <div className="indent py-20">
         <h2 className="h2">Toolbox</h2>
         <div className="flex flex-col justify-center gap-2">
           <p>

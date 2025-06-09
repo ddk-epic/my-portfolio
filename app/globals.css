@@ -43,7 +43,7 @@ h2 {
 }
 
 .indent {
-  @apply mx-2;
+  @apply mx-2 lg:mx-4;
 }
 
 .hover-icon {
