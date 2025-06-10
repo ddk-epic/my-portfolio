@@ -18,15 +18,15 @@ import {
 import { Links, Project } from "./types";
 
 export const navLinks: Links[] = [
-  { name: "Toolbox", link: "#toolbox" },
   { name: "Projects", link: "#projects" },
+  { name: "Toolbox", link: "#toolbox" },
   //{ name: "About", link: "#about" },
 ];
 
 export const contactLinks: Links[] = [
   { name: "Email", link: "mailto:danhkhang95@gmail.com" },
-  { name: "LinkedIn", link: "https://www.linkedin.com/" },
   { name: "Github", link: "https://github.com/" },
+  { name: "LinkedIn", link: "https://www.linkedin.com/" },
 ];
 
 export const icons: { name: string; Icon: React.ElementType }[] = [

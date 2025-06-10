@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Toolbox />
       <Projects />
+      <Toolbox />
       <Footer />
     </>
   );

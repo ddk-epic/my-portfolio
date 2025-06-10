@@ -28,6 +28,12 @@ body {
     Helvetica, sans-serif;
 }
 
+/* header,
+section {
+  outline: 2px solid var(--color-secondary);
+  outline-offset: -2px;
+} */
+
 h2 {
   @apply uppercase;
 }
@@ -40,13 +46,8 @@ h3 {
   @apply max-w-[1024px] mx-auto;
 }
 
-.tempborder {
-  outline: 2px solid var(--color-secondary);
-  outline-offset: -2px;
-}
-
 .indent {
-  @apply mx-4 lg:mx-6;
+  @apply mx-8;
 }
 
 .hover-effect {

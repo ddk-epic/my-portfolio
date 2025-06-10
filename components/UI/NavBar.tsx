@@ -3,7 +3,7 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <header className="tempborder fixed w-full flex justify-between items-center bg-white z-1000 p-4">
+    <header className="fixed w-full flex justify-between items-center bg-white z-1000 p-4">
       {/* Logo */}
       <div>
         <a href="#hero" className="px-3 py-1.5 border-1 rounded-md">
