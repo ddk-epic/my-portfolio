@@ -13,6 +13,7 @@
   --color-secondary: #8bc6ea;
   --color-highlight: #fbb73d;
   --color-light: #f1f1f1;
+  --color-gray: #5d5a5a;
 }
 
 /*@media (prefers-color-scheme: dark) {
@@ -28,13 +29,15 @@ body {
 }
 
 h2 {
-  text-transform: uppercase;
+  @apply uppercase;
+}
+
+h3 {
+  @apply font-semibold;
 }
 
 .wrapper {
-  max-width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
+  @apply max-w-[1024px] mx-auto;
 }
 
 .tempborder {
@@ -43,13 +46,13 @@ h2 {
 }
 
 .indent {
-  @apply mx-2 lg:mx-4;
+  @apply mx-4 lg:mx-6;
 }
 
-.hover-icon {
+.hover-effect {
   @apply fill-current transition-colors duration-150 ease-in-out;
 }
 
-.scale-icon {
+.scale-effect {
   @apply transform transition-all hover:scale-105 duration-150 ease-in-out;
 }

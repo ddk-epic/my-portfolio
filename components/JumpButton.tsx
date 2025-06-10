@@ -5,7 +5,7 @@ const JumpButton = () => {
   return (
     <>
       <a href="#toolbox">
-        <ChevronDown className="w-8 h-8 lg:w-10 lg:h-10 cursor-pointer" />
+        <ChevronDown className="w-8 h-8 m-auto group-hover:stroke-primary cursor-pointer" />
       </a>
     </>
   );

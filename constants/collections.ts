@@ -15,11 +15,18 @@ import {
   D3Icon,
   NextIcon,
 } from "@/components/DevIcons";
+import { Links, Project } from "./types";
 
-export const navLinks: { name: string; link: string }[] = [
+export const navLinks: Links[] = [
   { name: "Toolbox", link: "#toolbox" },
   { name: "Projects", link: "#projects" },
   //{ name: "About", link: "#about" },
+];
+
+export const contactLinks: Links[] = [
+  { name: "Email", link: "mailto:danhkhang95@gmail.com" },
+  { name: "LinkedIn", link: "https://www.linkedin.com/" },
+  { name: "Github", link: "https://github.com/" },
 ];
 
 export const icons: { name: string; Icon: React.ElementType }[] = [
@@ -38,4 +45,21 @@ export const icons: { name: string; Icon: React.ElementType }[] = [
   { name: "Express", Icon: ExpressIcon },
   { name: "Postgres", Icon: PostgresIcon },
   { name: "Mongodb", Icon: MongodbIcon },
+];
+
+export const projects: Project[] = [
+  {
+    title: "My Portfolio Site",
+    link: "/",
+    technologies: ["JavaScript", "React", "Tailwindcss", "Nextjs"],
+    description:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+  },
+  {
+    title: "MERN Project",
+    link: "/",
+    technologies: ["JavaScript", "React", "Tailwindcss", "Express", "Mongodb"],
+    description:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt",
+  },
 ];

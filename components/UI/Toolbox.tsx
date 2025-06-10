@@ -15,12 +15,12 @@ const Toolbox = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-8 pr-4 my-8">
             {icons.map(({ name, Icon }) => (
-              <div key={name} className="group scale-icon">
+              <div key={name} className="group scale-effect">
                 <Icon
                   key={name}
-                  className="w-18 md:h-18 m-auto group-hover:text-primary hover-icon"
+                  className="w-18 h-18 m-auto group-hover:text-primary hover-effect"
                 />
-                <p className="flex justify-center py-2 group-hover:text-primary hover-icon">
+                <p className="flex justify-center py-2 group-hover:text-primary hover-effect">
                   {name}
                 </p>
               </div>
