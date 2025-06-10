@@ -16,6 +16,7 @@ import {
   NextIcon,
 } from "@/components/DevIcons";
 import { Links, Project } from "./types";
+import placeholder from "../images/placeholder.jpg";
 
 export const navLinks: Links[] = [
   { name: "Projects", link: "#projects" },
@@ -51,6 +52,7 @@ export const projects: Project[] = [
   {
     title: "My Portfolio Site",
     link: "/",
+    image: placeholder,
     technologies: ["JavaScript", "React", "Tailwindcss", "Nextjs"],
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
@@ -58,6 +60,7 @@ export const projects: Project[] = [
   {
     title: "MERN Project",
     link: "/",
+    image: placeholder,
     technologies: ["JavaScript", "React", "Tailwindcss", "Express", "Mongodb"],
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt",
@@ -65,6 +68,7 @@ export const projects: Project[] = [
   {
     title: "3rd Project",
     link: "/",
+    image: placeholder,
     technologies: ["JavaScript", "React", "Tailwindcss"],
     description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
   },

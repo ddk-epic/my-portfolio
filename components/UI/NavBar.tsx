@@ -6,7 +6,7 @@ const NavBar = () => {
     <header className="fixed w-full flex justify-between items-center bg-white z-1000 p-4">
       {/* Logo */}
       <div>
-        <a href="#hero" className="px-3 py-1.5 border-1 rounded-md">
+        <a href="#hero" className="px-3 py-1.5 border rounded-md">
           K
         </a>
       </div>
@@ -29,10 +29,10 @@ const NavBar = () => {
           </ul>
         </nav>
         {/* Contact Me */}
-        <div>
+        <div className="group">
           <a
             href="#contact"
-            className="items-center bg-light text-foreground px-4 py-1 rounded-md"
+            className="items-center bg-light text-foreground px-4 pb-1.5 pt-0.5 rounded-md group-hover:bg-primary group-hover:text-light hover-effect"
           >
             Contact
           </a>

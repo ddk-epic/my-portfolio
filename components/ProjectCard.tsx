@@ -1,5 +1,6 @@
-import { Project } from "@/constants/types";
 import React from "react";
+import { Project } from "@/constants/types";
+import Image from "next/image";
 
 interface ProjectCardProps {
   className: string;
@@ -7,24 +8,36 @@ interface ProjectCardProps {
 }
 
 const ProjectCard = (props: ProjectCardProps) => {
-  const { title, link, technologies, description } = props.projectData;
+  const { title, link, image, technologies, description } = props.projectData;
   return (
     <div className={props.className}>
-      <div className="min-w-1/3 h-[180px] border-1 rounded-md my-2">
-        <a href={link}>link</a>
-      </div>
+      {/* Image */}
+      <a href={link} className="my-2">
+        <Image
+          src={image}
+          alt={`image of ${title}`}
+          width={300}
+          height={300}
+          placeholder="blur"
+          className="rounded-md"
+        />
+      </a>
 
-      <div className="flex-grow">
+      {/* Title, description */}
+      <div className="flex-1">
         <h3>{title}</h3>
         <div className="flex flex-wrap pt-1 pb-2 gap-1">
-          {/* technology building blocks */}
+          {/* Technology labels */}
           {technologies.map((item) => (
-            <div className="border-1 border-primary text-primary font-mono rounded-md px-1 text-xs">
+            <div
+              key={item}
+              className="border border-primary text-primary font-mono rounded-md px-1 text-xs"
+            >
               {item}
             </div>
           ))}
         </div>
-        <p>{description}</p>
+        <p className="text-sm text-gray">{description}</p>
       </div>
     </div>
   );

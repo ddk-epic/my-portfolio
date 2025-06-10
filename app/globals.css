@@ -36,11 +36,11 @@ section {
 } */
 
 h2 {
-  @apply uppercase;
+  @apply uppercase text-gray;
 }
 
 h3 {
-  @apply font-semibold;
+  @apply text-xl font-semibold;
 }
 
 .wrapper {
