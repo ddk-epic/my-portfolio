@@ -62,4 +62,10 @@ export const projects: Project[] = [
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt",
   },
+  {
+    title: "3rd Project",
+    link: "/",
+    technologies: ["JavaScript", "React", "Tailwindcss"],
+    description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+  },
 ];

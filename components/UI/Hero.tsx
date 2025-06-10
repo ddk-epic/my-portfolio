@@ -16,7 +16,7 @@ const Hero = () => {
               erat, sed diam voluptua.
             </p>
             <div className="group text-gray scale-effect hover-effect">
-              <JumpButton />
+              <JumpButton jumpTo="#project" />
             </div>
           </div>
         </aside>

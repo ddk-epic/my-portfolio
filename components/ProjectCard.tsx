@@ -16,7 +16,14 @@ const ProjectCard = (props: ProjectCardProps) => {
 
       <div className="flex-grow">
         <h3>{title}</h3>
-        <p className="pb-2">{technologies.join(", ")}</p>
+        <div className="flex flex-wrap pt-1 pb-2 gap-1">
+          {/* technology building blocks */}
+          {technologies.map((item) => (
+            <div className="border-1 border-primary text-primary font-mono rounded-md px-1 text-xs">
+              {item}
+            </div>
+          ))}
+        </div>
         <p>{description}</p>
       </div>
     </div>

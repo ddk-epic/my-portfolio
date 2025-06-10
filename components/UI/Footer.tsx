@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <section id="contact" className="wrapper">
-        <div className="flex pt-20 pb-12">
+        <div className="flex py-20">
           {/* Footer text */}
           <div className="indent max-w-2/3 w-2/3">
             <h1 className="text-2xl md:text-3xl font-bold">
