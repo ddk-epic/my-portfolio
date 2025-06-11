@@ -12,7 +12,7 @@ const Projects = () => {
             <ProjectCard
               key={index}
               projectData={card}
-              className="w-full md:flex gap-4 pb-12"
+              className="w-full sm:flex gap-4 pb-12"
             />
           ))}
         </div>

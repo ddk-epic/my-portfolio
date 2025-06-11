@@ -30,7 +30,8 @@ body {
 }
 
 /* header,
-section {
+section,
+aside {
   outline: 2px solid var(--color-secondary);
   outline-offset: -2px;
 } */
@@ -43,8 +44,16 @@ h3 {
   @apply text-xl font-semibold;
 }
 
+img {
+  @apply rounded-md;
+}
+
 .wrapper {
   @apply max-w-[1024px] mx-auto;
+}
+
+.top-div {
+  @apply pt-14;
 }
 
 .indent {

@@ -17,9 +17,7 @@ const ProjectCard = (props: ProjectCardProps) => {
           src={image}
           alt={`image of ${title}`}
           width={300}
-          height={300}
           placeholder="blur"
-          className="rounded-md"
         />
       </a>
 

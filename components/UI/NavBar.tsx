@@ -1,5 +1,6 @@
-import { navLinks } from "@/constants/collections";
 import React from "react";
+import { navLinks } from "@/constants/collections";
+import Link from "next/link";
 
 const NavBar = () => {
   return (
@@ -14,17 +15,17 @@ const NavBar = () => {
         {/* Nav Links */}
         <nav className="hidden sm:inline-block">
           <ul className="flex gap-8 pr-8">
-            {navLinks.map(({ name, link }) => (
+            {/* {navLinks.map(({ name, link }) => (
               <li key={name}>
                 <a href={link}>
                   <span>{name}</span>
                 </a>
               </li>
-            ))}
+            ))} */}
             <li key="About">
-              <a href="/about">
+              <Link href="/about">
                 <span>About</span>
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

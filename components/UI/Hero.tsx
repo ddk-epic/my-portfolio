@@ -3,7 +3,7 @@ import JumpButton from "../JumpButton";
 
 const Hero = () => {
   return (
-    <section id="hero" className="wrapper w-full">
+    <section id="hero" className="wrapper top-div w-full">
       <div className="h-[800px] grid grid-cols-1 md:grid-cols-2">
         <aside className="md:-mr-20 md:z-100">
           <div className="indent h-full flex flex-col justify-center items-center mt-12">

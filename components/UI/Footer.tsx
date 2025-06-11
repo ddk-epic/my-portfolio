@@ -1,25 +1,26 @@
 import React from "react";
 import { contactLinks } from "@/constants/collections";
 import { NextIcon } from "../DevIcons";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <>
       <section id="contact" className="wrapper">
-        <div className="flex py-20">
+        <div className="indent grid grid-cols-[2fr_1fr] py-20">
           {/* Footer text */}
-          <div className="indent max-w-2/3 w-2/3">
-            <h1 className="text-2xl md:text-3xl font-bold">
+          <div>
+            <h1 className="text-2xl md:text-3xl font-bold mr-8">
               Thanks for stopping by!
             </h1>
           </div>
           {/* Contact me */}
-          <div className="w-32">
-            <h3 className="pt-4">Contact me</h3>
+          <div className="pt-1 md:pt-2">
+            <h3>Contact me</h3>
             <ul>
               {contactLinks.map(({ name, link }) => (
                 <li key={name} className="pt-4">
-                  <a href={link}>{name}</a>
+                  <Link href={link}>{name}</Link>
                 </li>
               ))}
             </ul>
@@ -27,7 +28,7 @@ const Footer = () => {
         </div>
       </section>
       {/* Small print */}
-      <div className="absolute right-0 text-gray text-sm py-2 pr-4">
+      <div className="absolute left-0 flex-1 text-gray text-sm py-2 px-4">
         powered by{" "}
         <span>
           <NextIcon className="w-5 h-5 inline-flex text-gray fill-current" />
