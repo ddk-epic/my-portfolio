@@ -13,7 +13,8 @@ const NavBar = () => {
       </div>
       <div className="flex items-center">
         {/* Nav Links */}
-        <nav className="hidden sm:inline-block">
+        {/* <nav className="hidden sm:inline-block"> */}
+        <nav className="inline-block">
           <ul className="flex gap-8 pr-8">
             {/* {navLinks.map(({ name, link }) => (
               <li key={name}>
